@@ -3,12 +3,14 @@ import './App.css';
 import SingleCard from './components/SingleCard';
 
 const cardImages = [
-  { 'src': 'https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg', 'matched': false },
-  { 'src': 'https://cdn.cnn.com/cnnnext/dam/assets/210226041421-02-pokemon-anniversary-design-full-169.jpg', 'matched': false },
-  { 'src': 'https://legends.pokemon.com/assets/pokemon/pokemon_rowlet.png', 'matched': false },
-  { 'src': 'https://pokemonletsgo.pokemon.com/assets/img/common/char-eevee.png', 'matched': false },
-  { 'src': 'https://unite.pokemon.com/images/home/team-up/charizard-medium-up.png', 'matched': false },
-  { 'src': 'https://images.nintendolife.com/ab7f8a5513bf0/snorlax.large.jpg', 'matched': false }
+  { 'src': 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png', 'matched': false },
+  { 'src': 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png', 'matched': false },
+  { 'src': 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png', 'matched': false },
+  { 'src': 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png', 'matched': false },
+  { 'src': 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png', 'matched': false },
+  { 'src': 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/175.png', 'matched': false },
+  { 'src': 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png', 'matched': false },
+  { 'src': 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png', 'matched': false }
 ]
 
 function App() {
@@ -73,7 +75,7 @@ function App() {
 
   return (
     <div className="App">
-        <h1>Magic Match</h1>
+        <h1>Pokemon Match</h1>
         <button onClick={shuffleCards}>New Game</button>
 
         <div className="card-grid">
