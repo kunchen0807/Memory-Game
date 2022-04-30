@@ -21,8 +21,15 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader','css-loader']
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
       }
     ]
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx'],
   },
   // [devtool] this is an additional source map that will let the browser know what files are running our code.
   // Helps with error tracing. Without it we will not know where our errors are coming from because it will state that everything inside the bundle file.
